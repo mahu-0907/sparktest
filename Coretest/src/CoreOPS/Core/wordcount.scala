@@ -31,6 +31,8 @@ object wordcount {
     word2Count.foreach(println)
     println("我是版本2的修改！")
     println("这是在 hot-fix 分支上修改的代码！")
+    println("这是在 master 分支上再修改的代码！")
+    println("这是在 hot-fix 分支上再修改的代码！")
     //关闭Spark连接
     sc.stop()
   }
