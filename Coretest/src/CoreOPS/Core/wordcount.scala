@@ -29,6 +29,7 @@ object wordcount {
     val word2Count: Array[(String, Int)] = word2CountRDD.collect()
     // 打印结果
     word2Count.foreach(println)
+    println("我是版本2的修改！")
     //关闭Spark连接
     sc.stop()
   }
